@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "locale": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
+    }
+}
