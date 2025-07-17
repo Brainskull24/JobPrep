@@ -17,18 +17,6 @@
 - Prime factorization ✅
 ---
 
-✅ 2. Strings
-
-- Palindrome check
-- Longest Palindromic Substring (expand around center)
-- Rabin-Karp (rolling hash)
-- KMP prefix array (pattern matching)
-- Anagram check using map
-- String compression (in-place)
-- Valid parenthesis (stack)
-- Longest Common Prefix (vertical/horizontal scanning)
----
-
 ✅ 3. Linked Lists
 
 - Singly & doubly linked list ✅
@@ -39,26 +27,26 @@
 - Remove Nth node from end  ✅
 - Intersection of 2 LLs ✅
 - Add two numbers as LL ✅
-- LRU Cache (with hashmap + DLL) - Revisit
 ---
 
 ✅ 4. Stack & Queue
 
 - Stack using arrays & linked list ✅
 - Queue using arrays & linked list ✅
-- Min Stack
-- Next Greater Element (monotonic stack) ✅
-- Largest Rectangle in Histogram
 - Implement Stack using Queues ✅
 - Implement Queue using Stacks ✅
-- Circular Queue
+- Min Stack  ✅
+- Next Greater Element (monotonic stack) ✅
+- Largest Rectangle in Histogram  ✅
+- LRU Cache (with hashmap + DLL) - Revisit 
+- Circular Queue 
 ---
 
 ✅ 5. Recursion & Backtracking
 
-- Factorial, power, fibonacci (with and without memo)
+- Factorial, power, fibonacci (with and without memo) 
 - Generate all subsets / permutations
-- N-Queens
+- N-Queens 
 - Rat in a Maze
 - Sudoku Solver
 - Word Search (DFS grid)
@@ -68,21 +56,21 @@
 
 ✅ 6. Sliding Window & Two Pointers
 
-- Maximum subarray sum of size k
+- Maximum subarray sum of size k ✅
 - Longest substring with k distinct characters
 - Minimum window substring
-- Two sum (2-pointer vs hashmap)
-- 3Sum / 4Sum
-- Trapping Rain Water
-- Container With Most Water
+- Two sum (2-pointer vs hashmap) ✅
+- 3Sum / 4Sum  ✅
+- Trapping Rain Water  ✅
+- Container With Most Water 
 ---
 
 ✅ 7. Binary Search
 
-- All standard variants
-- Binary Search on answer (min/max pages, kth smallest, etc.)
-- Peak Element
-- Median of 2 sorted arrays
+- All standard variants  ✅
+- Binary Search on answer (min/max pages, kth smallest, etc.) ✅
+- Peak Element  ✅
+- Median of 2 sorted arrays ✅
 - Find element in infinite sorted array
 ---
 
@@ -116,14 +104,14 @@
 
 ✅ 10. Greedy Algorithms
 
-- Activity selection / meeting rooms
-- Fractional Knapsack
-- Huffman Coding
-- Job sequencing
-- Gas Station
-- Minimum number of platforms
-- Merge Intervals
-- Minimum coins for amount
+- Activity selection / meeting rooms ✅
+- Fractional Knapsack ✅
+- Huffman Coding ✅
+- Job sequencing ✅
+- Gas Station 
+- Minimum number of platforms ✅
+- Merge Intervals ✅
+- Minimum coins for amount ✅
 ---
 
 ✅ 11. Tries / Prefix Trees
@@ -210,3 +198,15 @@
 - KMP / Z-algorithm (string matching)
 - Suffix Array & LCP (optional but powerful)
  
+
+ ✅ 2. Strings
+
+- Palindrome check
+- Longest Palindromic Substring (expand around center)
+- Rabin-Karp (rolling hash)
+- KMP prefix array (pattern matching)
+- Anagram check using map
+- String compression (in-place)
+- Valid parenthesis (stack)
+- Longest Common Prefix (vertical/horizontal scanning)
+---

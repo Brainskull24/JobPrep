@@ -427,7 +427,5 @@ int main()
 
     list.intersection(nullptr, nullptr);
 
-    
-
     return 0;
 }
