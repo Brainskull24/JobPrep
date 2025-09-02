@@ -44,14 +44,14 @@
 
 ✅ 5. Recursion & Backtracking
 
-- Factorial, power, fibonacci (with and without memo) 
-- Generate all subsets / permutations
-- N-Queens 
-- Rat in a Maze
-- Sudoku Solver
-- Word Search (DFS grid)
-- Combination Sum / Subset Sum
-- Palindrome Partitioning
+- Factorial, power, fibonacci (with and without memo) ✅
+- Generate all subsets / permutations ✅
+- N-Queens ✅
+- Rat in a Maze ✅
+- Sudoku Solver ✅
+- Word Search (DFS grid) ✅
+- Combination Sum / Subset Sum ✅
+- Palindrome Partitioning ✅
 ---
 
 ✅ 6. Sliding Window & Two Pointers
@@ -62,7 +62,7 @@
 - Two sum (2-pointer vs hashmap) ✅
 - 3Sum / 4Sum  ✅
 - Trapping Rain Water  ✅
-- Container With Most Water 
+- Container With Most Water ✅
 ---
 
 ✅ 7. Binary Search
@@ -71,34 +71,34 @@
 - Binary Search on answer (min/max pages, kth smallest, etc.) ✅
 - Peak Element  ✅
 - Median of 2 sorted arrays ✅
-- Find element in infinite sorted array
+- Find element in infinite sorted array 
 ---
 
 ✅ 8. Trees (Binary Trees + BSTs)
 
-- Inorder, Preorder, Postorder (recursive + iterative)
-- Level Order Traversal (BFS)
-- Height of tree
-- Diameter of tree
-- Balanced tree check
-- Lowest Common Ancestor (LCA)
-- Mirror tree / Symmetric tree
-- Path sum problems
-- Construct tree from preorder/inorder
-- Morris Traversal
-- BST Insert, Delete
-- Validate BST
-- Kth smallest/largest in BST
+- Inorder, Preorder, Postorder (recursive + iterative) ✅
+- Level Order Traversal (BFS) ✅
+- Height of tree ✅
+- Diameter of tree ✅
+- Balanced tree check ✅
+- Lowest Common Ancestor (LCA) ✅
+- Mirror tree / Symmetric tree ✅
+- Path sum problems ✅
+- Construct tree from preorder/inorder ✅
+- Morris Traversal ✅
+- BST Insert, Delete ✅
+- Validate BST ✅
+- Kth smallest/largest in BST ✅
 ---
 
 ✅ 9. Heaps / Priority Queue
 
-- Min Heap / Max Heap (from array)
-- Heapify, insert, delete
-- Kth largest/smallest element
-- Merge K sorted arrays/lists
-- Median in a stream
-- Top K frequent elements
+- Min Heap / Max Heap (from array) ✅
+- Heapify, insert, delete ✅
+- Kth largest/smallest element ✅
+- Merge K sorted arrays/lists ✅
+- Median in a stream ✅
+- Top K frequent elements ✅
 - Sliding window max (heap approach)
 ---
 
@@ -108,7 +108,7 @@
 - Fractional Knapsack ✅
 - Huffman Coding ✅
 - Job sequencing ✅
-- Gas Station 
+- Gas Station ✅
 - Minimum number of platforms ✅
 - Merge Intervals ✅
 - Minimum coins for amount ✅
@@ -125,35 +125,35 @@
 
 ✅ 12. Graphs
 
-- Representations (adj list, matrix)
-- BFS & DFS (with visited)
-- Detect cycle (DFS & Union Find)
-- Topological Sort (Kahn’s + DFS)
-- Shortest path:
+- Representations (adj list, matrix) ✅
+- BFS & DFS (with visited) ✅
+- Detect cycle (DFS & Union Find) ✅
+- Topological Sort (Kahn’s + DFS) ✅
+- Shortest path: ✅
 	- BFS (unit weight)
 	- Dijkstra
 	- Bellman-Ford
 	- Floyd-Warshall
-- MST:
+- MST: ✅
 	- Kruskal’s Algorithm (DSU)
 	- Prim’s Algorithm
-- Bipartite Graph check
-- Number of islands
+- Bipartite Graph check ✅
+- Number of islands ✅
 - Bridges & Articulation points (Tarjan)
 - Kosaraju’s algorithm (SCC)
 ---
 
 ✅ 13. Dynamic Programming
 
-- 0/1 Knapsack (memo + tabulation)
-- Unbounded Knapsack
-- Subset sum
-- Partition equal subset
-- Coin change (min and count)
-- LCS, LIS, LPS
-- Edit distance
-- Matrix path sum (grid dp)
-- DP on Trees
+- 0/1 Knapsack (memo + tabulation) ✅
+- Unbounded Knapsack ✅
+- Subset sum ✅
+- Partition equal subset ✅
+- Coin change (min and count) ✅
+- LCS, LIS, LPS ✅
+- Edit distance ✅
+- Matrix path sum (grid dp) ✅
+- DP on Trees 
 - DP on Bitmask (TSP style)
 - Catalan Numbers (n-th valid parentheses)
 ---
@@ -173,12 +173,12 @@
 
 ✅ 15. Disjoint Set (Union-Find)
 
-- Basic Union & Find
-- Path Compression
-- Union by Rank
-- Detect Cycle in Undirected Graph
-- Kruskal’s MST with DSU
-- Connected Components
+- Basic Union & Find ✅
+- Path Compression ✅
+- Union by Rank ✅
+- Detect Cycle in Undirected Graph ✅
+- Kruskal’s MST with DSU ✅
+- Connected Components ✅
 ---
 
 ✅ 16. Segment Tree / Binary Indexed Tree (Fenwick)
