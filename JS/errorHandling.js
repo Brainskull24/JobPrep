@@ -1,19 +1,19 @@
-// const fetchData = async () => {
-//   try {
-//     const response = await fetch(
-//       `https://api.coindesk.com/v1/bpi/currentprice.json`
-//     );
-//     if (!response.ok) {
-//       throw new Error(`HTTP error! Status: ${response.status}`);
-//     }
-//     const data = await response.json();
-//     console.log(data);
-//   } catch (err) {
-//     console.error("Error fetching data:", err.message);
-//   } finally {
-//     console.log("Done");
-//   }
-// };
+const fetchData = async () => {
+  try {
+    const response = await fetch(
+      `https://api.coindesk.com/v1/bpi/currentprice.json`
+    );
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (err) {
+    console.error("Error fetching data:", err.message);
+  } finally {
+    console.log("Done");
+  }
+};
 
 // fetchData();
 

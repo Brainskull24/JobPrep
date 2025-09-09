@@ -4,7 +4,7 @@ const c = 3;
 
 // c = 7; // Error since its a constant
 
-console.log(c);
+console.log(typeof c);
 console.log(typeof "JS");
 console.log(typeof null);
 console.log(typeof undefined);
