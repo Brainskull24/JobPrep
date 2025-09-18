@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Diseases</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f0f2f5; }
+    input { padding: 8px; width: 50%; margin-bottom: 10px; }
+    ul { list-style: none; padding: 0; }
+    li { padding: 10px; margin: 5px 0; border-radius: 5px; cursor: pointer; }
+    li.namaste { background: #d4edda; }
+    li.icd { background: #cce5ff; }
+    button { padding: 10px 20px; margin-top: 10px; cursor: pointer; border: none; border-radius: 5px; background: #4CAF50; color: white; }
+    button:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+  <h2>Search for Condition</h2>
+  <input type="text" id="search" placeholder="Type a term..." oninput="searchTerm()" />
+  <ul id="results"></ul>
+  <button onclick="backToProfile()">Back to Profile</button>
+
+  <script>
+    const user = JSON.parse(localStorage.getItem("user"));
+    if (!user) window.location.href = "index.html";
+
+    const MAPPINGS = {
+      "NAM-AY-001": ["TM2-1001","MB-1001"],
+      "NAM-AY-002": ["MB-1002"],
+      "NAM-AY-003": ["MB-1003"],
+      "TM2-1001": ["NAM-AY-001"],
+      "MB-1001": ["NAM-AY-001"],
+      "MB-1002": ["NAM-AY-002"],
+      "MB-1003": ["NAM-AY-003"],
+    };
+
+    async function searchTerm() {
+      const query = document.getElementById("search").value;
+      if (query.length < 2) return;
+
+      const response = await fetch(`http://127.0.0.1:8000/ValueSet/$expand?filter=${query}`);
+      const data = await response.json();
+      const list = document.getElementById("results");
+      list.innerHTML = "";
+
+      data.expansions.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = `${item.display} (${item.system} - ${item.code})`;
+        li.className = item.system === "NAMASTE" ? "namaste" : "icd";
+        li.onclick = () => addCondition(item);
+        list.appendChild(li);
+      });
+    }
+
+    function addCondition(condition) {
+      const namaste = condition.system === "NAMASTE" ? condition.code : (MAPPINGS[condition.code]||[]).find(c=>c.startsWith("NAM"))||"-";
+      const icd = condition.system === "ICD-11" ? condition.code : (MAPPINGS[condition.code]||[]).find(c=>c.startsWith("TM")||c.startsWith("MB"))||"-";
+
+      const newCond = { display: condition.display, namasteCode: namaste, icdCode: icd };
+      user.conditions.push(newCond);
+      localStorage.setItem("user", JSON.stringify(user));
+      alert(`${condition.display} added with dual codes!`);
+    }
+
+    function backToProfile() {
+      localStorage.setItem("user", JSON.stringify(user));
+      window.location.href = "profile.html";
+    }
+  </script>
+</body>
+</html>

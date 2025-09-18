@@ -1,0 +1,18 @@
+title,code,id,source,definition
+"Personal history of malignant neoplasm of trachea, bronchus or lung",QC40.1,http://id.who.int/icd/release/11/2024-01/mms/1242651085,Entity (no MMS code),
+Malignant neoplasm metastasis in lung,2D70,http://id.who.int/icd/release/11/2024-01/mms/1976635094,Entity (no MMS code),
+Squamous cell carcinoma of bronchus or lung,2C25.2,http://id.who.int/icd/release/11/2024-01/mms/2045832550,Entity (no MMS code),A carcinoma arising from malignant squamous bronchial epithelial cells and characterised by the presence of keratinization and/or intercellular bridges. Cigarette smoking and arsenic exposure are strongly associated with squamous cell lung carcinoma.
+Unspecified malignant epithelial neoplasm of bronchus or lung,2C25.5,http://id.who.int/icd/release/11/2024-01/mms/1826627197,Entity (no MMS code),
+Small cell carcinoma of bronchus or lung,2C25.1,http://id.who.int/icd/release/11/2024-01/mms/1800431439,Entity (no MMS code),A highly aggressive subtype of lung carcinoma characterised by the presence of malignant small cells and necrosis. Metastatic disease is usually present at the time of diagnosis.
+"Family history of malignant neoplasm of trachea, bronchus or lung",QC61.1,http://id.who.int/icd/release/11/2024-01/mms/1813463090,Entity (no MMS code),
+Stage IV,XS9R,http://id.who.int/icd/release/11/2024-01/mms/238069351,Entity (no MMS code),
+Stage IV,XS9R,http://id.who.int/icd/release/11/2024-01/mms/238069351,Entity (no MMS code),
+Stage IV,XS9R,http://id.who.int/icd/release/11/2024-01/mms/238069351,Entity (no MMS code),
+Stage IV,XS9R,http://id.who.int/icd/release/11/2024-01/mms/238069351,Entity (no MMS code),
+Stage IV,XS9R,http://id.who.int/icd/release/11/2024-01/mms/238069351,Entity (no MMS code),
+Pulmonary lymph node,XA9QW9,http://id.who.int/icd/release/11/2024-01/mms/732554109,Entity (no MMS code),
+Carcinoid or other malignant neuroendocrine neoplasms of bronchus or lung,2C25.4,http://id.who.int/icd/release/11/2024-01/mms/1315163160,Entity (no MMS code),
+Hilar lymph node,XA5MW1,http://id.who.int/icd/release/11/2024-01/mms/1555232041,Entity (no MMS code),
+"Personal history of malignant neoplasm of respiratory or intrathoracic organs other than the digestive organs, trachea, bronchus or lung",QC40.2,http://id.who.int/icd/release/11/2024-01/mms/1052510516,Entity (no MMS code),
+"Family history of malignant neoplasm of respiratory or intrathoracic organs other than digestive organs, trachea, bronchus or lung",QC61.2,http://id.who.int/icd/release/11/2024-01/mms/414847181,Entity (no MMS code),
+Bronchopulmonary lymph node,XA96Z0,http://id.who.int/icd/release/11/2024-01/mms/82298010,Entity (no MMS code),

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Profile</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f0f2f5; }
+    h2, h3 { color: #333; }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+    th { background: #4CAF50; color: white; }
+    td.namaste { background: #d4edda; }
+    td.icd { background: #cce5ff; }
+    button { padding: 10px 20px; margin-top: 15px; cursor: pointer; border: none; border-radius: 5px; background: #4CAF50; color: white; }
+    button:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+  <h2>User Profile</h2>
+  <div id="profile"></div>
+
+  <h3>Conditions Table</h3>
+  <table>
+    <thead>
+      <tr><th>Condition</th><th>NAMASTE Code</th><th>ICD Code</th></tr>
+    </thead>
+    <tbody id="conditionsTable"></tbody>
+  </table>
+
+  <button onclick="goToSearch()">Add Condition</button>
+
+  <script>
+    const user = JSON.parse(localStorage.getItem("user"));
+    if (!user) window.location.href = "index.html";
+
+    document.getElementById("profile").innerHTML = `<p><strong>Username:</strong> ${user.username}</p><p><strong>ABHA ID:</strong> ${user.abha_id}</p>`;
+
+    function renderConditions() {
+      const tbody = document.getElementById("conditionsTable");
+      tbody.innerHTML = "";
+      user.conditions.forEach(c => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${c.display}</td>
+          <td class="namaste">${c.namasteCode}</td>
+          <td class="icd">${c.icdCode}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+    renderConditions();
+
+    function goToSearch() {
+      localStorage.setItem("user", JSON.stringify(user));
+      window.location.href = "search.html";
+    }
+  </script>
+</body>
+</html>
