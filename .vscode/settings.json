@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "stack": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "ratio": "cpp",
+        "locale": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve"
 }

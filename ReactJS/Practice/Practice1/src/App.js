@@ -1,11 +1,12 @@
 import "./App.css";
-import Stopwatch from "./components/StopWatch";
+// import { useState } from "react";
+// import Stopwatch from "./components/StopWatch";
+import TodoList from "./components/TodoList";
 // import Todo from "./pages/Todo";
 // import Tabs from "./components/Tabs";
 // import Accordion from "./components/Accordion";
 // import InputField from "./components/InputField";
 // import Modal from "./components/Modal";
-// import { useState } from "react";
 // import Toggle from "./components/Toggle";
 // import SearchBar from "./components/SearchBar";
 // import InfiniteScroll from "./components/InfiniteScroll";
@@ -39,7 +40,8 @@ function App() {
       {/* <Accordion /> */}
       {/* <Tabs /> */}
       {/* <Todo /> */}
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      <TodoList/>
     </>
   );
 }
