@@ -1,0 +1,86 @@
+Use 12 Groups of 60 DSA problems to check if you're prepared for any major company you want to go for. These core questions that came up most often in real interviews.
+
+These are based on rounds given at:
+-- Amazon, Uber, 
+-- Google, Flipkart,
+-- JPMorganChase, and Mastercard. 
+
+Note: These aren't exact questions but based on common themes and patterns. Hope these help you study well!
+
+1. Graphs & Traversals
+
+➥ Number of Islands (Flipkart, Uber, Atlassian)
+➥ Word Ladder / Shortest Transformation Sequence (Amazon, Google)
+➥ Course Schedule (Cycle Detection in Graph) (Google, Uber, Microsoft)
+➥ Clone Graph (Amazon, Google)
+➥ Evaluate Division (Graph + DFS) (Google, Uber, Microsoft)
+
+---
+
+2. Intervals, Events & Scheduling
+
+➥ Merge Intervals (Google, Amazon, Microsoft)
+➥ Meeting Rooms II (Min Rooms Required) (Amazon, Uber)
+➥ Insert Interval (Google, Flipkart)
+➥ Employee Free Time (Amazon, Atlassian)
+➥ Minimum Number of Arrows to Burst Balloons (Google, Walmart)
+
+---
+
+3. Matrix Manipulation & Backtracking
+
+➥ Word Search / Word Search II (Google, Uber)
+➥ Sudoku Solver (Google, Microsoft, Oracle)
+➥ Spiral Matrix (Flipkart, Uber, Microsoft)
+➥ N-Queens (Amazon, Google)
+➥ Unique Paths II (Amazon, Walmart)
+
+---
+
+4. Binary Trees & Binary Search Trees
+
+➥ Lowest Common Ancestor in Binary Tree (Amazon, Flipkart, Uber)
+➥ Kth Smallest Element in BST (Google, Amazon)
+➥ Serialize & Deserialize Binary Tree (Google, Amazon, Atlassian)
+➥ Validate Binary Search Tree (Uber, Walmart)
+➥ Binary Tree Zigzag Level Order Traversal (Amazon, Google, Flipkart)
+
+---
+
+5. Sliding Window & Two Pointer Patterns
+
+➥ Longest Substring Without Repeating Characters (Amazon, Flipkart, Atlassian)
+➥ Longest Subarray with Sum ≤ K (Uber, Walmart, Oracle)
+➥ Minimum Window Substring (Google, Amazon)
+➥ Longest Continuous Subarray with Absolute Diff ≤ Limit (Uber, Google)
+➥ Maximum Number of Vowels in a Substring of Given Length (Microsoft, Amazon)
+
+---
+
+6. Hashing, Sets & Random Access
+
+➥ Insert Delete GetRandom O(1) (Uber, Flipkart)
+➥ Top K Frequent Elements (Amazon, Uber, Google)
+➥ Group Anagrams (Google, Microsoft, Amazon)
+➥ Subarray Sum Equals K (Amazon, Flipkart)
+➥ Two Sum / Four Sum II (Amazon, Google, Walmart)
+
+---
+
+7. Dynamic Programming & State Optimization
+
+➥ Coin Change (Google, Uber, Flipkart)
+➥ Longest Increasing Subsequence (Amazon, Microsoft, Walmart)
+➥ House Robber (Uber, Google)
+➥ Edit Distance (Amazon, Google, Oracle)
+➥ Unique Paths (Microsoft, Flipkart, Uber)
+
+---
+
+8. Stack & Monotonic Patterns
+
+➥ Daily Temperatures (Google, Walmart)
+➥ Next Greater Element I/II (Amazon, Atlassian, Uber)
+➥ Valid Parentheses (Amazon, Flipkart)
+➥ Largest Rectangle in Histogram (Google, Microsoft, Oracle)
+➥ Min Stack (Amazon, Uber, Google)

@@ -1,0 +1,15 @@
+How does inheritance affect code coupling and reusability?
+
+Explain composition over inheritance with an example.
+
+What is object slicing in C++ or similar languages?
+
+when are shallow copy and deep copy used ?
+
+What happens when a constructor throws an exception?
+
+How can object pooling improve performance?
+
+What is the Dependency Inversion Principle?
+
+Explain Open/Closed Principle with a short example.

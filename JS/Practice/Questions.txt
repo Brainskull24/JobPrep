@@ -1,0 +1,10 @@
+1. Use optional chaining (?.) to safely access nested properties.
+2. Handle errors with try-catch blocks, especially in async functions.
+3. Destructure objects and arrays for more readable code.
+4. Prefer const over let, avoid var completely.
+5. Use array methods (map, filter, reduce) instead of loops when possible.
+6. Use strict equality (===) instead of loose equality (==).
+7. Use template literals for string concatenation and multiline strings.
+8. Leverage the spread operator (...) for copying and merging arrays/objects.
+9. Use async/await instead of promise chains for better readability.
+10. Avoid nested callbacks—flatten your code with named functions.

@@ -92,6 +92,12 @@ int main()
     Addition *calc1 = new Addition();
     calc1->printDetails();
 
+    Calculation *calc2 = new Calculation();
+    calc2->printDetails();
+
+    Calculation *calc3 = new Addition();
+    calc3->printDetails();
+
     // Virtual functions example: base pointer pointing to derived object.
     Shape *shape = new Circle(5.0);
 

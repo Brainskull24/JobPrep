@@ -1,0 +1,104 @@
+If I’m testing your React knowledge in a Frontend interview, I’m definitely going to ask 1–2 questions out of these 50+ problems (collected over my 12+ years of exp.)
+
+These cover everything :
+→ Component design and reusability
+→ State management and hooks
+→ Handling user interactions and events
+→ Accessibility and ARIA roles
+→ Optimizing rendering and performance
+→ Working with external data and APIs
+
+➥UI/Component Building
+
+- Memory Game
+- Image Carousel
+- Image Carousel II (smooth transitions)
+- Digital Clock
+- Analog Clock
+- Whack-A-Mole
+- Tic-tac-toe
+- Tic-tac-toe II (N x N, variable win condition)
+- Connect Four
+- Modal Dialog
+- Modal Dialog II (ARIA roles, semi-accessible)
+- Modal Dialog III (common close methods, moderately accessible)
+- Accordion II (accessible, ARIA support)
+- Accordion III (full keyboard support, ARIA)
+- Tabs
+- Tabs II (semi-accessible)
+- Tabs III (keyboard/ARIA spec)
+- Star Rating
+- Like Button
+- Progress Bars III (multiple concurrent, pause/resume)
+- Progress Bars II (sequential fill, one at a time)
+- Grid Lights
+- Traffic Light
+- Data Table
+- Data Table II (sorting)
+- Data Table III (pagination, sorting)
+- Data Table IV (pagination, sorting, filtering)
+- Nested Checkboxes (parent-child selection logic)
+- File Explorer
+- File Explorer II (ARIA roles, semi-accessible)
+- File Explorer III (flat DOM)
+- Table of Contents (HTML parsing, tree)
+- Selectable Cells (drag-select grid)
+- Auth Code Input (6-digit entry)
+- Modal Dialog IV (fully accessible, keyboard support)
+- Undoable Counter (undo/redo)
+- Pixel Art (drawing grid)
+- Todo List
+
+➥Logic/Algorithmic & Data Handling
+
+- Birth Year Histogram (API + plotting)
+- Job Board (API data + rendering)
+- Transfer List
+- Transfer List II (bulk select, add, transfer)
+- Users Database (CRUD)
+- Dice Roller
+- Backbone Model (custom object store)
+- Data Selection (filtering)
+- getElementsByTagNameHierarchy (DOM queries)
+- Curry III (JS currying logic)
+- Classnames II (join/dedupe classnames)
+- Heap (implement data structure)
+- Heap Operations
+- End of Array Reachable (jump game)
+- Find the Longest Palindromic Substring
+- Find Words in Grid
+- Find Word in Grid (existence check)
+- Shortest Substring Containing Characters
+- Disjoint Intervals (remove overlaps)
+- Minimum Meeting Rooms Needed
+- Graph Clone (deep copy graph)
+- Binary Tree Serialization and Deserialization
+- Binary Tree Maximum Total Path
+- Binary Tree Rebuilding from Preorder/Inorder
+- Graph Count Connected Components
+- Number Stream Median
+- Linked Lists Combine K Sorted
+
+➥Custom Hooks
+
+- useDebounce
+- useEventListener
+- useHover
+- useInterval
+- useKeyPress
+- useMap
+- useObject
+- useSet
+- useStep
+- useThrottle
+- useTimeout
+- useWindowSize
+- useIdle
+- useInputControl
+- useMediaQuery
+- useMediatedState
+- useQuery
+- useArray
+- useBreakpoint
+- useClickOutside
+- useCountdown
